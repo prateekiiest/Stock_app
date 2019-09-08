@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.rest;
+package com.prateekiiest.android.stockhawk.rest;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,9 +6,6 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-/**
- * Created by sam_chordas on 11/9/15.
- */
 public class RecyclerViewItemClickListener implements RecyclerView.OnItemTouchListener {
 
   @Override public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {

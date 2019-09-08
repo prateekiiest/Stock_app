@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.widget;
+package com.prateekiiest.android.stockhawk.widget;
 
 import android.annotation.TargetApi;
 import android.app.PendingIntent;
@@ -11,8 +11,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.TaskStackBuilder;
 import android.widget.RemoteViews;
 
-import com.sam_chordas.android.stockhawk.R;
-import com.sam_chordas.android.stockhawk.ui.MyStocksActivity;
+import com.prateekiiest.android.stockhawk.R;
+import com.prateekiiest.android.stockhawk.ui.MyStocksActivity;
 
 public class WidgetProvider extends AppWidgetProvider {
 

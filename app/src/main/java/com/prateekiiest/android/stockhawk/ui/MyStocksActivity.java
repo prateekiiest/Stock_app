@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.ui;
+package com.prateekiiest.android.stockhawk.ui;
 
 import android.app.AlertDialog;
 import android.app.LoaderManager;
@@ -31,16 +31,16 @@ import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
 import com.melnykov.fab.FloatingActionButton;
-import com.sam_chordas.android.stockhawk.R;
-import com.sam_chordas.android.stockhawk.data.QuoteColumns;
-import com.sam_chordas.android.stockhawk.data.QuoteProvider;
-import com.sam_chordas.android.stockhawk.rest.QuoteCursorAdapter;
-import com.sam_chordas.android.stockhawk.rest.RecyclerViewItemClickListener;
-import com.sam_chordas.android.stockhawk.rest.Utils;
-import com.sam_chordas.android.stockhawk.service.StockIntentService;
-import com.sam_chordas.android.stockhawk.service.StockTaskService;
-import com.sam_chordas.android.stockhawk.touch_helper.SimpleItemTouchHelperCallback;
-import com.sam_chordas.android.stockhawk.widget.WidgetProvider;
+import com.prateekiiest.android.stockhawk.R;
+import com.prateekiiest.android.stockhawk.data.QuoteColumns;
+import com.prateekiiest.android.stockhawk.data.QuoteProvider;
+import com.prateekiiest.android.stockhawk.rest.QuoteCursorAdapter;
+import com.prateekiiest.android.stockhawk.rest.RecyclerViewItemClickListener;
+import com.prateekiiest.android.stockhawk.rest.Utils;
+import com.prateekiiest.android.stockhawk.service.StockIntentService;
+import com.prateekiiest.android.stockhawk.service.StockTaskService;
+import com.prateekiiest.android.stockhawk.touch_helper.SimpleItemTouchHelperCallback;
+import com.prateekiiest.android.stockhawk.widget.WidgetProvider;
 
 public class MyStocksActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 

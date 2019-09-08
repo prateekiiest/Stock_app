@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.ui;
+package com.prateekiiest.android.stockhawk.ui;
 
 import android.annotation.TargetApi;
 import android.app.LoaderManager;
@@ -15,9 +15,9 @@ import com.db.chart.model.LineSet;
 import com.db.chart.view.AxisController;
 import com.db.chart.view.ChartView;
 import com.db.chart.view.LineChartView;
-import com.sam_chordas.android.stockhawk.R;
-import com.sam_chordas.android.stockhawk.data.QuoteColumns;
-import com.sam_chordas.android.stockhawk.data.QuoteProvider;
+import com.prateekiiest.android.stockhawk.R;
+import com.prateekiiest.android.stockhawk.data.QuoteColumns;
+import com.prateekiiest.android.stockhawk.data.QuoteProvider;
 
 public class GraphDetailActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {

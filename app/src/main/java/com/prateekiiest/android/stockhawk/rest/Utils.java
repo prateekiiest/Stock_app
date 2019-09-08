@@ -1,12 +1,12 @@
-package com.sam_chordas.android.stockhawk.rest;
+package com.prateekiiest.android.stockhawk.rest;
 
 import android.annotation.TargetApi;
 import android.content.ContentProviderOperation;
 import android.os.Build;
 import android.util.Log;
 
-import com.sam_chordas.android.stockhawk.data.QuoteColumns;
-import com.sam_chordas.android.stockhawk.data.QuoteProvider;
+import com.prateekiiest.android.stockhawk.data.QuoteColumns;
+import com.prateekiiest.android.stockhawk.data.QuoteProvider;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -15,9 +15,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Objects;
 
-/**
- * Created by sam_chordas on 10/8/15.
- */
+
 public class Utils {
 
     public static boolean showPercent = true;

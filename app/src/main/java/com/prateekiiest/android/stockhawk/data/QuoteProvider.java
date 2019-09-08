@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.data;
+package com.prateekiiest.android.stockhawk.data;
 
 import android.net.Uri;
 

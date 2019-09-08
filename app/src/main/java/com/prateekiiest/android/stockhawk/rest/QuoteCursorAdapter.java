@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.rest;
+package com.prateekiiest.android.stockhawk.rest;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -12,18 +12,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.sam_chordas.android.stockhawk.R;
-import com.sam_chordas.android.stockhawk.data.QuoteColumns;
-import com.sam_chordas.android.stockhawk.data.QuoteProvider;
-import com.sam_chordas.android.stockhawk.touch_helper.ItemTouchHelperAdapter;
-import com.sam_chordas.android.stockhawk.touch_helper.ItemTouchHelperViewHolder;
+import com.prateekiiest.android.stockhawk.R;
+import com.prateekiiest.android.stockhawk.data.QuoteColumns;
+import com.prateekiiest.android.stockhawk.data.QuoteProvider;
+import com.prateekiiest.android.stockhawk.touch_helper.ItemTouchHelperAdapter;
+import com.prateekiiest.android.stockhawk.touch_helper.ItemTouchHelperViewHolder;
 
-/**
- * Created by sam_chordas on 10/6/15.
- * Credit to skyfishjy gist:
- * https://gist.github.com/skyfishjy/443b7448f59be978bc59
- * for the code structure
- */
+
 public class QuoteCursorAdapter extends CursorRecyclerViewAdapter<QuoteCursorAdapter.ViewHolder>
         implements ItemTouchHelperAdapter {
 

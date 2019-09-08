@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.service;
+package com.prateekiiest.android.stockhawk.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -7,9 +7,7 @@ import android.util.Log;
 
 import com.google.android.gms.gcm.TaskParams;
 
-/**
- * Created by sam_chordas on 10/1/15.
- */
+
 public class StockIntentService extends IntentService {
 
     public StockIntentService() {
