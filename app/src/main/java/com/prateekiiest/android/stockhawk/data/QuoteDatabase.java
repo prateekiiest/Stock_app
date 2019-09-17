@@ -4,7 +4,7 @@ import net.simonvt.schematic.annotation.Database;
 import net.simonvt.schematic.annotation.Table;
 
 /**
- * Created by sam_chordas on 10/5/15.
+  * Created by prateekiiest on 12/9/19.
  */
 @Database(version = QuoteDatabase.VERSION)
 public class QuoteDatabase {
